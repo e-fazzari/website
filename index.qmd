@@ -1,0 +1,9 @@
+---
+title: "Elisa Fazzari"
+toc: false
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=about.html">
+---
+
+[Visit Elisa Fazzari’s academic website](about.qmd).

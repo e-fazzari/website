@@ -1,42 +1,49 @@
 ---
-title: "About"
+title: "Elisa Fazzari"
+body-classes: profile-page
 ---
 
-![](files/profile.png){width=180px style="border-radius: 50%; float: right; margin-left: 20px;"}
+:::: {.intro}
 
-Hello! I am **Francesco D’Amico**, a PhD student in Physics at **Sapienza University of Rome**, where I work under the supervision of Matteo Negri and Chiara Cammarota on the topic of **statistical theory of learning**.  
-My research lies at the intersection of **statistical mechanics, machine learning, and neuroscience**.   
+::: {.intro-copy}
 
----
+<h1 class="profile-name" id="elisa-fazzari">Elisa Fazzari</h1>
 
-## Research Interests
-- **Associative memories** and **attention**-class architectures
-- **Energy-based models** and **approximate likelihood** methods
-- **Generative models** and applications to **neuroscience**
-- **Data structure** in machine learning and **neural scaling laws** 
-- How **learning rules** affect training **dynamics and representations**
-  
-   
+<p class="profile-subtitle">Cosmology &amp; university teaching</p>
 
----
+I am a cosmologist with a **PhD in Astronomy, Astrophysics and Space Science** from the joint programme of Sapienza University of Rome and the University of Rome Tor Vergata. I study what observations of the expanding Universe can tell us about **dark energy, gravity and the Hubble tension**.
 
-## Academic Background
-- **PhD in Physics**, Sapienza University of Rome (2023–2026)  
-- **Visiting PhD Student**, École polytechnique fédérale de Lausanne (EPFL) - Matthieu Wyart - PCSL group (March - May 2026)
-- **Visiting PhD Student**, Complutense University of Madrid - Group of Beatriz Seoane (March - May 2025) 
-- **Master’s Degree in Theoretical Physics**, Sapienza University of Rome, *110/110 cum laude* (2021-2023)  
-- **Physics department excellence program**, Sapienza University of Rome (2018-2023) 
-- **Bachelor’s Degree in Physics**, Sapienza University of Rome, *110/110 cum laude* (2018-2021)  
- 
----
+I enjoy helping students work through the same questions that drive my research: how to turn a physical idea into a model, test it against data and understand what the result can tell us. At Sapienza, I have taught undergraduate mathematics and led practical sessions in Bayesian inference for Master’s and PhD students.
+
+[Research projects](projects.qmd) · [Teaching and mentoring](tutoring.qmd)
+:::
+
+<figure>
+  <img class="profile-photo" src="foto.png" width="180" height="180" alt="Portrait of Elisa Fazzari">
+</figure>
+
+::::
+
+## Research interests
+
+- **Late-time cosmic acceleration.** I test models of dynamical dark energy and modified gravity against observations, including Type Ia supernovae, baryon acoustic oscillations and cosmic chronometers.
+- **Cosmography and the Hubble tension.** I develop ways to reconstruct the expansion history from data with minimal assumptions about the underlying dynamics.
+- **Scientific computing and inference.** I build reusable Python workflows for Bayesian parameter estimation, including Cobaya pipelines and numerical checks. I have also used genetic algorithms to explore modified-gravity models.
+- **Early-Universe physics.** I have studied the background evolution and observational constraints of $f(R)$ inflation.
+
+[Publications](publications.qmd) · [Talks and posters](talks.qmd)
+
+## Academic background
+
+- **PhD in Astronomy, Astrophysics and Space Science**, Sapienza University of Rome and University of Rome Tor Vergata, awarded 6 November 2026. My doctoral research examined dark energy and cosmological tensions under the supervision of Alessandro Melchiorri and Giovanni Montani.
+- **Visiting researcher**, Instituto de Física Teórica (IFT UAM–CSIC), Madrid, April–June 2026. I worked with Savvas Nesseris on testing modified gravity with genetic algorithms.
+- **Visiting researcher**, University of Sheffield, March 2024 and March 2025. I worked with William Giarè and Eleonora Di Valentino on late-time cosmology and cosmography. The first visit was supported by a COST Action CosmoVerse Short-Term Scientific Mission grant.
+- **MSc in Astronomy and Astrophysics** and **BSc in Physics**, Sapienza University of Rome (2023 and 2021, both 110/110 cum laude).
 
 ## Contact
-- 📧 [francesco.damico@uniroma1.it](mailto:francesco.damico@uniroma1.it)  
-- 💻 [GitHub](https://github.com/Francill99)  
-- 📑 [Google Scholar](https://scholar.google.com/citations?user=fcoliR8AAAAJ&hl=it)  
 
----
+[elisa.fazzari@uniroma1.it](mailto:elisa.fazzari@uniroma1.it) · [ORCID](https://orcid.org/0009-0005-0594-4128)
 
 ## Download CV
-- [English CV](docs/CV_english.pdf)  
-- [Italian Europass CV](docs/CV_italian.pdf)  
+
+[Academic CV in English (PDF)](docs/elisa-fazzari-academic-cv.pdf)

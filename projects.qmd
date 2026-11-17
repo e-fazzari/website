@@ -1,39 +1,39 @@
 ---
-title: "Projects"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+title: "Research projects"
+subtitle: "Cosmological modelling, inference and validation"
 ---
 
-## Master's degree
+## Testing modified gravity with genetic algorithms
 
-### Thesis
+**Instituto de Física Teórica (IFT UAM–CSIC), Madrid · April–June 2026**
 
-- *The random features p-spin Hopfield model* 🔽 [pdf](files/projects/Tesi_magistrale_D_Amico.pdf)
+I helped develop the methodology and implemented the modified-gravity framework in the genetic algorithm pipeline. I carried out theoretical and numerical analysis to test which departures from the Hu–Sawicki model satisfy viability conditions and fit background observations.
 
-### Laboratory experiences
+**Collaborators:** Savvas Nesseris, Matteo Martinelli and Chiara De Leo.  
+**Output:** [Exploring Hu-Sawicki-like modified gravity with Genetic Algorithms](https://arxiv.org/abs/2607.12745).
 
-- *Biophysics laboratory*: Studio dei siti di binding di complessi proteici e analisi dell’affinità di legame attraverso modelli di machine learning (Analysis with machine learning methods of binding sites in protein complexes) 🔽 [pdf](files/projects/Biophysics_Laboratory_Damico.pdf)
+## Reconstructing the late-time expansion history
 
-- *Computational physics - statistical mechanics*: Simulazione Montecarlo di un ensamble NPT di Hard Boxes (Montecarlo simulation of an NPT ensemble of Hard Boxes) 🔽 [pdf](files/projects/damico_francesco_computing_methods.pdf)
+**Sapienza University of Rome and University of Sheffield · March 2025**
 
-## Bachelor degree
+I derived analytical expressions for a cosmographic expansion around arbitrary pivot redshifts and developed a numerical workflow in Cobaya to fit the resulting parameters across redshift bins. I ran parallel fits and checked whether the results were robust to choices in the analysis.
 
-### Excellence program
+**Collaborators:** William Giarè and Eleonora Di Valentino.  
+**Output:** [Cosmographic Footprints of Dynamical Dark Energy](https://doi.org/10.3847/2041-8213/ae2917).
 
-- *Theoretical study of Green method and numerical applications to real problems*  
+## A reusable pipeline for testing late-time cosmology
 
-  Green method to solve a one-dimensional oscillator with a general force applied 🔽 [pdf](files/projects/metodo_green_damico_oscillatore.pdf)
+**University of Sheffield · March 2024**
 
-  Green method to solve the Laplacian equation of electric potential given a general charge distribution 🔽 [pdf](files/projects/metodo_green_damico_potenziale.pdf)
+During a COST Action CosmoVerse Short-Term Scientific Mission, I developed a Cobaya-based workflow to compare late-time models against supernovae, baryon acoustic oscillations and cosmic chronometers. I reused it for the subsequent cosmography project.
 
-- *Montecarlo methods for statistical mecanics*
+**Collaborators:** Eleonora Di Valentino and William Giarè.  
+**Support:** COST Action CA21136 CosmoVerse.
 
-  My first statistical mechanics numerical study: I analyzed the phase transition in 2-D Ising model 🔽 [numerical phase transition](files/projects/binder.pdf)
-  
-### Thesis
+## Exploring the Hubble tension and inflation
 
-- *Modello di Vicsek topologico analizzato con tecniche di Machine Learning* (Topological Vicsek model analyzed with Machine Learning methods). I performed parallel dynamics on GPUs of flock of birds and I used a DGCNN model to infer hidden parameters of simulations. 🔽 [Thesis](files/projects/Tesi_D_Amico.pdf)
+**Sapienza University of Rome and University of Rome Tor Vergata · 2023–2026**
 
-  
+In my doctoral research, I combined analytical modelling and Bayesian inference to investigate extensions of $\Lambda$CDM. In one project, we tested whether bulk viscosity in matter within an $f(R)$ gravity model could accommodate a higher $H_0$ while remaining compatible with supernova and DESI BAO observations. I also investigated inflationary dynamics in metric $f(R)$ gravity.
+
+**Selected outputs:** [Viscous matter in modified gravity](https://doi.org/10.1016/j.dark.2026.102486) · [Investigating $f(R)$-inflation](https://doi.org/10.1088/1475-7516/2026/07/006).

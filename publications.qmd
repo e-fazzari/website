@@ -1,21 +1,23 @@
 ---
 title: "Publications"
 bibliography: publications.bib
-csl: publications.csl     
+csl: publications.csl
 nocite: |
   @*
-
 format:
   html:
     toc: true
     toc-depth: 2
     citation-links: true
-
-csl-bib-body:
-  sorting: descending
 ---
 
+## Journal articles
 
-Below is a complete list of my publications.
+::: {#refs}
+:::
 
+## Preprint
 
+**Exploring Hu-Sawicki-like modified gravity with Genetic Algorithms** (2026). C. De Leo, E. Fazzari, M. Martinelli and S. Nesseris. [arXiv:2607.12745](https://arxiv.org/abs/2607.12745).
+
+[ORCID profile](https://orcid.org/0009-0005-0594-4128)

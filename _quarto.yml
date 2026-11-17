@@ -1,60 +1,57 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+    - publications.qmd
+    - projects.qmd
+    - talks.qmd
+    - tutoring.qmd
+  resources:
+    - foto.png
+    - docs/elisa-fazzari-academic-cv.pdf
 
 website:
-  description: "Statistical mechanics of learning · PhD @ Sapienza"
-  favicon: images/logo_no_borders.png
-  site-url: "https://francill99.github.io/fdamico_website/"
+  title: "Elisa Fazzari"
+  description: "Elisa Fazzari’s academic website. Cosmology research, publications and university teaching."
   open-graph: true
-  twitter-card: true
-
+  search: true
   navbar:
     left:
-      - text: "About"
+      - text: About
         href: about.qmd
-      - text: "Research"
+      - text: Research
         menu:
-          - text: "Publications"
+          - text: Publications
             href: publications.qmd
-          - text: "Projects"
+          - text: Projects
             href: projects.qmd
-          - text: "Talks and Posters"
+          - text: Talks and Posters
             href: talks.qmd
-      - text: "Teaching"
+      - text: Teaching
         menu:
-          - text: "Tutoring"
+          - text: Teaching and mentoring
             href: tutoring.qmd
     right:
-      - icon: github
-        text: GitHub
-        href: https://github.com/Francill99
+      - text: ORCID
+        href: https://orcid.org/0009-0005-0594-4128
       - icon: envelope
-        text: "francesco.damico@uniroma1.it"
-        href: "mailto:francesco.damico@uniroma1.it"
-
+        text: Email
+        href: "mailto:elisa.fazzari@uniroma1.it"
   page-footer:
-    left: "© 2025 Francesco D'Amico"
-    right: |
-      Built with <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a>
+    left: "© 2026 Elisa Fazzari"
+    right: 'Built with <a href="https://quarto.org">Quarto</a>'
 
 format:
   html:
+    lang: en
     theme:
-      light: flatly
-      dark: darkly
+      dark: [darkly, dark.scss]
+      light: [flatly, light.scss]
     toc: true
     toc-depth: 3
-    toc-title: Contents
+    toc-title: On this page
     smooth-scroll: true
     css: styles.css
     code-copy: true
-    include-in-header:
-      text: |
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXXXXX');
-        </script>

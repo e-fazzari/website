@@ -60,7 +60,7 @@
       </choose>
 
       <!-- arXiv or DOI if present -->
-      <text variable="DOI" prefix=". doi: "/>
+      <text variable="DOI" prefix="https://doi.org/"/>
       <text variable="URL" prefix=". " />
     </group>
   </macro>
@@ -102,11 +102,6 @@
           <text macro="details"/>
         </group>
 
-        <!-- 4th line: TL;DR + abstract in italics -->
-        <group display="block">
-          <text value="TL;DR: " font-weight="bold"/>
-          <text variable="abstract" font-style="italic"/>
-        </group>
       </group>
     </layout>
   </bibliography>

@@ -1,16 +1,24 @@
 ---
-title: "Tutoring"
-format:
-  html:
-    toc: true
-    toc-depth: 3
+title: "Teaching and mentoring"
+subtitle: "Mathematics, physics and scientific computing"
 ---
 
-## Analisi 1 per Fisica
+## Undergraduate mathematics
 
-From 10/2025 to 02/2026, 40 hours of exercises at blackboard, online discussions and exam support for students
+**Academic tutor · Sapienza University of Rome · 2024/25–2025/26**
 
-## Calcolo e statistica per Biotecnologie
+I led lectures and problem-solving sessions for students in the Bachelor’s Degree in Economics and Business. I prepared worked examples, guided students through exercises and helped them get ready for exams.
 
-From 11/2024 to 02/2025, 30 hours of exercises at blackboard, online discussions and exam support for students
+## Bayesian inference with Cobaya
 
+**Lecturer · Sapienza University of Rome · July 2025**
+
+I designed and delivered six hours of lectures and hands-on sessions for Master’s and PhD students. Students worked through how to set up a cosmological model, estimate its parameters with Cobaya and interpret the resulting constraints.
+
+## Research mentoring
+
+I supported two Master’s students in their thesis research. Both projects led to co-authored journal articles on [viscous dark energy](https://doi.org/10.1016/j.jheap.2026.100732) and [metric modified gravity](https://doi.org/10.1016/j.jheap.2026.100612). I also supervised an undergraduate research project exploring quintessence models in the context of the Hubble tension.
+
+## Teaching interests
+
+Introductory physics and undergraduate mathematics, general relativity, cosmology and astrophysics, scientific programming, and Bayesian inference.

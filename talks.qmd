@@ -1,94 +1,17 @@
 ---
-title: "Talks and Posters"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+title: "Talks and posters"
+subtitle: "Selected research presentations"
 ---
 
 ## 2026
 
-### Talks
-
-- **Understanding transformers requires new physical systems: pseudo-likelihood and vector-spin models** 🔽 [Presentation](files/talks/2026/phys_systems_SA.pdf)
-
-  Seminar at Boston College - Massachussets, United States, **21/06/2026**
-
-- **Implicit bias produces scaling laws in learning curves, from perceptrons to deep networks** 🔽 [Presentation](files/talks/2026/implicit_bias_scaling_laws.pdf)
-
-  ROccella Conference on Inference and AI, Roccella Ionica, **1/09/26**
-
-- **Tutorial: how to build and train a GPT** 🔽 [Slides](files/talks/2026/Tutorial_GPT.pdf) - [Open Notebook](https://colab.research.google.com/drive/1eomCh5kSKzPE42YskaFfpfOUq65aNtri?usp=sharing)
-
-  Statistical Physics of Deep Learning  III - Lake Como School of Advanced studies, **16/06/2026**
-
-- **Implicit bias produces scaling laws in learning curves, from perceptrons to deep networks** 🔽 [Presentation](files/talks/2026/implicit_bias_scaling_laws.pdf)
-
-  PCSL group meeting - École polytechnique fédérale de Lausanne (EPFL), **06/03/2026** 
-
-  ICLR26 short recorded talk - [Video](https://recorder-v3.slideslive.com/?share=107954&s=67d49165-9948-4e8d-8b31-6862e41145e1)
-
-- **Pseudolikelihood produces associative memories able to generalize, even for asymmetric couplings** 🔽 [Presentation](files/talks/2026/Presentazione_UMI.pdf)
-
-  4th workshop of Unione Matematica Italiana (UMI) - Sapienza University of Rome, **23/01/2026**
-
-### Posters
-
-- **Implicit bias produces neural scaling laws in learning curves, from perceptrons to deep networks** 🔽 [Poster](files/talks/2026/poster_conference_A0.pdf)
-
-  ICLR2026 - Rio de Janeiro, **23-27/04/2026**
-
-  Statistical Physics of Deep Learning  III - Lake Como School of Advanced studies, **15-19/06/2026**
-
-- **Power-law feature statistics explain test reconstruction gaps in Associative Memories** 🔽 [Poster](files/talks/2026/NFAM26_A1.pdf)
-
-  NFAM2026 - Rio de Janeiro, **23-27/04/2026**
+- **Probing the Nature of Cosmic Acceleration in the DESI Era.** Astronomy, Astrophysics and Space Science PhD Workshop, University of Rome Tor Vergata, September. [Programme](https://astrophysicsworkshop.wordpress.com/2026-workshop-3/)
 
 ## 2025
 
-### Talks 
-
-- **Scaling laws, from Perceptrons to Deep Networks** 🔽 [Presentation](files/talks/2025/Presentazione_neural_scaling_laws.pdf)
-
-  Sapienza University of Rome - Chimera group Journal Club, **07/10/2025** 
-
-  University of Parma - Statistical mechanics group, **23/10/2025** 
-
-  Universidad Complutense de Madrid - Theoretical physics department seminar, **18/02/2026**
-
-- **Statistical mechanics of autoregressive models: towards a theory of Self-Attention** 🔽 [Presentation](files/talks/2025/Presentazione_phd_talks.pdf)
-
-  PhD talks - Sapienza University of Rome, **16/10/2025**
-
-### Posters
-
-- **Pseudo-likelihood produces associative memories able to generalize, even for asymmetric couplings** 🔽 [Poster](files/talks/2025/Poster_pseudo_likelihood (3).pdf)
-
-  Mathematical Methods for High-Dimensional Data, Sapienza University of Rome, **8-12/09/25**
-
-  STATPHYS29, Firenze, **13-17/07/25**
-
-- **Implicit bias produces neural scaling laws in learning curves, from perceptrons to deep networks** 🔽 [Poster](files/talks/2025/Poster Scaling Laws_A1 vers 2 (1).svg)
-
-  ROccella Conference on Inference and AI, Roccella Ionica, **1-5/09/25**
-
-  Learning and Optimization in High Dimensions, Bocconi Univeristy, Milano, **8-11/07/25**
-
-  Beg Rohu summer school, Saint-Pierre-Quiberon, **2-14/06/25**
+- **Novel Test of Dark Energy through High-Redshift Cosmography.** Invited talk, Second International Conference on the Physics of the Two Infinities, Tokyo, November. [Conference entry](https://indico.in2p3.fr/event/35255/contributions/161624/)
+- **The effective running Hubble parameter in SNe Ia as a marker for the dark energy nature.** Talk, CosmoVerse general meeting, Istanbul Technical University, June. [Conference entry and slides](https://indico.itu.edu.tr/event/1/contributions/51/)
 
 ## 2024
 
-### Talks
-
-- *Self-attention as an attractor network: transient memories without backpropagation*  🔽 [Presentation](files/talks/2024/SISSA_HSA.pdf)
-
-  SISSA Journal Club — Trieste, **11/10/2024**  
-  
-### Posters
-
-- *Self-attention as an attractor network: transient memories without backpropagation*  🔽 [Poster](files/talks/2024/Poster_Cargese.pdf)
-
-  ROccella Conference on Inference and AI, Roccella Ionica, **1-5/09/24**
-
-  SISSA Journal Club — Trieste, **11/10/2024**  
-  
+- **$f(R)$ gravity and non-equilibrium physics in the late Universe in the context of the Hubble tension.** Short talk, X Meeting on Fundamental Cosmology, University of Seville, October.
