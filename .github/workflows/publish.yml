@@ -1,26 +1,67 @@
-name: Update website
+name: Aggiorna sito Elisa Fazzari
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render
-        uses: quarto-dev/quarto-actions/render@v2
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Scarica i sorgenti
+        uses: actions/checkout@v6
+
+      - name: Configura GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Installa Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
-          target: gh-pages
+          version: "1.10.20"
+
+      - name: Imposta automaticamente l'indirizzo del sito
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          site_url = os.environ["SITE_URL"].rstrip("/") + "/"
+          Path("_quarto-github.yml").write_text(
+              "website:\n  site-url: " + json.dumps(site_url) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Genera il sito
+        run: |
+          rm -rf _site .quarto
+          quarto render --profile github
+
+      - name: Prepara la pubblicazione
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pubblica il sito
+        id: deployment
+        uses: actions/deploy-pages@v4
